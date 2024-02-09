@@ -3,10 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-# Computer Science Course Project
-
-Welcome to my computer science course project website!
+Welcome to my computer science course digital notebook website!
 
 This website serves as a project for my computer science course. I will be frequently updating it throughout the course to showcase my progress and learning journey.
 
