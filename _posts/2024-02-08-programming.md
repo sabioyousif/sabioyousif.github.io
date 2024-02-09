@@ -7,6 +7,8 @@ tags: [basics, coding]
 pin: false
 ---
 
+## Basic Definitions
+
 ## What Is Programming?
 
 Programming is the process of giving instructions to a computer to perform specific tasks. It involves writing a set of step-by-step commands in a programming language that the computer can understand and execute. The goal is to solve problems or automate tasks by providing the computer with a clear and logical set of instructions to follow.
@@ -28,7 +30,75 @@ Pseudocode is a way of designing and representing algorithms in a human-readable
 print("Hello, World!")
 
 # Variables and printing values
+
+
 name = "John"
 age = 25
 print("My name is", name, "and I am", age, "years old.")
 ```
+
+## Data Types
+
+```python
+# Integer and float
+num_integer = 42
+num_float = 3.14
+
+# String
+text = "Python is fun!"
+
+# Boolean
+is_true = True
+is_false = False
+```
+
+## List and Arrays
+
+```python
+# Lists
+fruits = ["apple", "banana", "orange"]
+print("List of fruits:", fruits)
+
+# Indexing and accessing elements
+first_fruit = fruits[0]
+print("First fruit:", first_fruit)
+```
+
+## Conditional Statements
+
+```python
+# If statement
+x = 10
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is less than or equal to 5")
+```
+
+## Loops
+
+```python
+# For loop
+for i in range(5):
+    print("Iteration", i)
+
+# While loop
+count = 0
+while count < 3:
+    print("Count:", count)
+    count += 1
+```
+
+## Functions
+
+```python
+# Defining a function
+def greet(name):
+    return "Hello, " + name + "!"
+
+# Calling the function
+result = greet("Alice")
+print(result)
+```
+
+These are the very basics of programming, applicable across various languages. As I progress, I'll include different syntax and more advanced concepts. 
