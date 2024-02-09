@@ -12,3 +12,5 @@ I chose to host this project on GitHub Pages instead of using Google Sites for a
 Feel free to explore the content as I continue to add more information and updates related to my coursework.
 
 If you have any questions or feedback, please feel free to reach out.
+
+Also, check out my friend's website [Andrew's Computer Science Page](https://sites.google.com/mytools2go.ca/andrew-ics4u-comp-sci/home).
