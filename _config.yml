@@ -75,7 +75,8 @@ theme_mode: dark # [light | dark]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://media.discordapp.net/attachments/957125038279127090/1205341379434119179/IMG_5243.jpg?ex=65d804a3&is=65c58fa3&hm=c80c5481bbfcfa1992abc376536836ecbff84e59b240829156e7058fa67bd7d4&=&format=webp&width=726&height=676"
+avatar: "https://media.discordapp.net/attachments/957125038279127090/1205341232046542858/IMG_5243.jpg?ex=65d8047f&is=65c58f7f&hm=7c18524aca5d923847171f17f52f9a83c97316da794e6de8925659f236125d7f&=&format=webp&width=450&height=676"
+
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
