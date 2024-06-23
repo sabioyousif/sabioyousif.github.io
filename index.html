@@ -1,744 +1,730 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sabio's Course Portfolio</title>
-        <!--
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabio's Course Portfolio</title>
+    <!--
 - custom css link
 	-->
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <!--
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--
 - google font link
 	-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--
 - #MAIN
 	-->
-        <main>
-            <!--
+    <main>
+      <!--
 	-- #SIDEBAR
 	-->
-            <aside class="sidebar" data-sidebar>
-                <div class="sidebar-info">
-                    <figure class="avatar-box">
-                        <img src="./assets/images/my-avatar.png" alt="Sabio Yousif" width="80">
-                    </figure>
-                    <div class="info-content">
-                        <h1 class="name" title="Sabio Yousif">Sabio Yousif</h1>
-                        <p class="title">Student</p>
-                    </div>
-                    <button class="info_more-btn" data-sidebar-btn>
-                        <span>Show Contacts</span>
-                        <ion-icon name="chevron-down"></ion-icon>
-                    </button>
-                </div>
-                <div class="sidebar-info_more">
-                    <div class="separator"></div>
-                    <ul class="contacts-list">
-                        <li class="contact-item">
-                            <div class="icon-box">
-                                <ion-icon name="mail-outline"></ion-icon>
-                            </div>
-                            <div class="contact-info">
-                                <p class="contact-title">Email</p>
-                                <a href="mailto:sabiohy@gmail.com" class="contact-link">sabiohy@gmail.com</a>
-                            </div>
-                        </li>
-                        <li class="contact-item">
-                            <div class="icon-box">
-                                <ion-icon name="calendar-outline"></ion-icon>
-                            </div>
-                            <div class="contact-info">
-                                <p class="contact-title">Birthday</p>
-                                <time datetime="2006-02-18">February 18, 2006</time>
-                            </div>
-                        </li>
-                        <li class="contact-item">
-                            <div class="icon-box">
-                                <ion-icon name="location-outline"></ion-icon>
-                            </div>
-                            <div class="contact-info">
-                                <p class="contact-title">Location</p>
-                                <address>1400 Northwood Street. Windsor, Ontario</address>
-                            </div>
-                        </li>
-                    </ul>
-            </aside>
-            <!--
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box" onselectstart="return false">
+            <img src="./assets/images/my-avatar.png" alt="Sabio Yousif" width="80">
+          </figure>
+          <div class="info-content">
+            <h1 class="name" title="Sabio Yousif">Sabio Yousif</h1>
+            <p class="title">Student</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:sabiohy@gmail.com" class="contact-link">sabiohy@gmail.com</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="2006-02-18">February 18, 2006</time>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>1400 Northwood Street. Windsor, Ontario</address>
+              </div>
+            </li>
+          </ul>
+      </aside>
+      <!--
 - #main-content
 	-->
-            <div class="main-content">
-                <!--
+      <div class="main-content">
+        <!--
 - #NAVBAR
 	-->
-                <nav class="navbar">
-                    <ul class="navbar-list">
-                        <li class="navbar-item">
-                            <button class="navbar-link  active" data-nav-link>About</button>
-                        </li>
-                        <li class="navbar-item">
-                            <button class="navbar-link" data-nav-link>Unit One</button>
-                        </li>
-                        <li class="navbar-item">
-                            <button class="navbar-link" data-nav-link>Unit Two</button>
-                        </li>
-                        <li class="navbar-item">
-                            <button class="navbar-link" data-nav-link>Unit Three</button>
-                        </li>
-                        <li class="navbar-item">
-                            <button class="navbar-link" data-nav-link>Unit Four</button>
-                        </li>
-                    </ul>
-                </nav>
-                <!--
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Unit One</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Unit Two</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Unit Three</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Unit Four</button>
+            </li>
+          </ul>
+        </nav>
+        <!--
 - #ABOUT
 	-->
-                <article class="about  active" data-page="about">
-                    <header>
-                        <h2 class="h2 article-title">About me</h2>
-                    </header>
-                    <section class="about-text">
-                        <p> Welcome to my computer science course digital notebook website! This website serves as a project for my computer science course. I will be frequently updating it throughout the course to showcase my progress and learning journey. I chose to host this project on GitHub Pages instead of using Google Sites for a bit more of a challenge and to gain experience with web development tools. </p>
-                        <p> Feel free to explore the content as I continue to add more information and updates related to my coursework. If you have any questions or feedback, please feel free to reach out. Also, check out my friend’s website <a href="https://sites.google.com/mytools2go.ca/andrew-ics4u-comp-sci/home">Andrew’s Computer Science Page.</a>
-                        </p>
-                    </section>
-                    <!--
+        <article class="about  active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+          <section class="about-text">
+            <p> Welcome to my computer science course digital notebook website! This website serves as a project for my computer science course. I will be frequently updating it throughout the course to showcase my progress and learning journey. I chose to host this project on GitHub Pages instead of using Google Sites for a bit more of a challenge and to gain experience with web development tools. </p>
+            <p> Feel free to explore the content as I continue to add more information and updates related to my coursework. If you have any questions or feedback, please feel free to reach out. Also, check out my friend’s website <a href="https://sites.google.com/mytools2go.ca/andrew-ics4u-comp-sci/home">Andrew’s Computer Science Page.</a>
+            </p>
+          </section>
+          <!--
 	- service
 		-->
-                    <section class="service">
-                        <h3 class="h3 service-title">What i'm doing</h3>
-                        <ul class="service-list">
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icon-design.svg
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
 	" alt="design icon" width="40">
-                                </div>
-                                <div class="service-content-box">
-                                    <h4 class="h4 service-item-title">Electromechanical Engineering</h4>
-                                    <p class="service-item-text"> Programmer in the automation and robotics field. </p>
-                                </div>
-                            </li>
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-                                </div>
-                                <div class="service-content-box">
-                                    <h4 class="h4 service-item-title">Web development</h4>
-                                    <p class="service-item-text"> I make high-quality sites at a professional level. </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
-                    <!--
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Electromechanical Engineering</h4>
+                  <p class="service-item-text"> Programmer in the automation and robotics field. </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+                  <p class="service-item-text"> I make high-quality sites at a professional level. </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <!--
 		- testimonials
 			-->
-                    <section class="testimonials"></section>
-                    <!--
+          <section class="testimonials"></section>
+          <!--
 					- testimonials modal
 						-->
-                    <div class="modal-container" data-modal-container>
-                        <div class="overlay" data-overlay></div>
-                        <section class="testimonials-modal">
-                            <button class="modal-close-btn" data-modal-close-btn>
-                                <ion-icon name="close-outline"></ion-icon>
-                            </button>
-                            <div class="modal-img-wrapper">
-                                <figure class="modal-avatar-box">
-                                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-                                </figure>
-                                <img src="./assets/images/icon-quote.svg" alt="quote icon">
-                            </div>
-                            <div class="modal-content">
-                                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-                                <time datetime="2021-06-14">14 June, 2021</time>
-                                <div data-modal-text>
-                                    <p> Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. </p>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <!--
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                </figure>
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                <time datetime="2021-06-14">14 June, 2021</time>
+                <div data-modal-text>
+                  <p> Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. </p>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!--
 						- clients
 							-->
-                    <section class="clients"></section>
-                </article>
-                <!--
+          <section class="clients"></section>
+        </article>
+        <!--
 						- #RESUME
 							-->
-                <article class="resume" data-page="unit one">
-                    <header>
-                        <h2 class="h2 article-title">U1:<br>Programming</h2>
-                    </header>
-                    <section class="timeline">
-                        <div class="title-wrapper">
-                            <div class="icon-box">
-                                <ion-icon name="book-outline"></ion-icon>
-                            </div>
-                            <h3 class="h3">1.1: What Is CS?</h3>
-                        </div>
-                        <ol class="timeline-list">
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">What is Computer Science?</h4>
-                                <p class="timeline-text"> Computer Science is like learning about computers and how they work. It’s not just about the physical computer, but also the programs we use on them. This is important for all types of businesses, like banks or car companies, because they all use computer programs. In Computer Science, we learn to make these programs. We do this by creating step-by-step instructions, or algorithms, and then we design, build, test, and use them. It’s like building a Lego set, but with computer programs! </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">What is Programming?</h4>
-                                <p class="timeline-text"> Programming is when we give computers instructions to follow. Computers use a special code called binary that only understands "on" and "off" signals, but with programming languages, we can talk to computers in a way that’s easier for us to understand. </p>
-                            </li>
-                            <li class="timeline-item">
-                                <div class="video-container">
-                                    <h4 class="h4 timeline-item-title">Short Video on Computer Science</h4>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j7iXyUdJTHE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            </li>
-                        </ol>
-                    </section>
-                    <section class="timeline">
-                        <div class="title-wrapper">
-                            <div class="icon-box">
-                                <ion-icon name="book-outline"></ion-icon>
-                            </div>
-                            <h3 class="h3">1.4: Introduction to Java</h3>
-                        </div>
-                        <ol class="timeline-list">
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">WHAT IS JAVA?</h4>
-                                <p class="timeline-text"> Java is a computer language used to make programs. It's special because it can run on any device that has Java, like computers, smartphones, or smart TVs. </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Classes and Methods</h4>
-                                <p class="timeline-text"> In Java, every program starts with a class named after the file. Inside this class, there's a "main" method that lists the tasks of the program. To output something, we use: System.out.println("This is a String"). </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Comments, Semicolons, and Whitespace</h4>
-                                <p class="timeline-text"> Comments in code help us understand what's happening. They start with "//" for a single line, or "/* */" for multiple lines. Semicolons mark the end of a line of code. Whitespace, like empty lines or spaces, doesn't affect the code but helps with readability. </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Compiling, Classes, and Executables</h4>
-                                <p class="timeline-text"> Java is a compiled language, which means it's converted into a class of byte code before it can run. This is done using "javac filename.java" in the Command Line, creating a "filename.class". This class can then be run using "java filename". This process is usually done automatically by the IDE (Integrated Development Environment) we use. </p>
-                            </li>
-                        </ol>
-                    </section>
-                    <section class="timeline">
-                        <div class="title-wrapper">
-                            <div class="icon-box">
-                                <ion-icon name="book-outline"></ion-icon>
-                            </div>
-                            <h3 class="h3">1.4: Introduction to Java</h3>
-                        </div>
-                        <ol class="timeline-list">
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">WHAT IS JAVA?</h4>
-                                <p class="timeline-text"> Java is a computer language used to make programs. It's special because it can run on any device that has Java, like computers, smartphones, or smart TVs. </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Classes and Methods</h4>
-                                <p class="timeline-text"> In Java, every program starts with a class named after the file. Inside this class, there's a "main" method that lists the tasks of the program. To output something, we use: System.out.println("This is a String"). </p>
-                            </li>
-                        </ol>
-                    </section>
-                    <section class="timeline">
-                        <div class="title-wrapper">
-                            <div class="icon-box">
-                                <ion-icon name="book-outline"></ion-icon>
-                            </div>
-                            <h3 class="h3">1.4.2: Variables in Java</h3>
-                        </div>
-                        <ol class="timeline-list">
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Importance and Uses of a Variable</h4>
-                                <p class="timeline-text"> Variables are essential in all programming languages. They allow us to store data under a name, making it easier to use in the program. For instance, we can store the number 17 in the variable "userAge." </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Primitive Data Types in Java</h4>
-                                <p class="timeline-text"> Java has three main primitive data types: int, double, and boolean. The 'int' type holds whole numbers, 'double' holds decimal numbers, and 'boolean' holds true or false values. </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Strings and Escape Sequences</h4>
-                                <p class="timeline-text"> A String is an object within Java that holds a collection of characters. We use Strings to store words or sentences. An escape sequence allows us to perform special functions in Java without the computer misinterpreting what we're writing. </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Static Checking</h4>
-                                <p class="timeline-text"> Java uses static typing, which means a program won't compile if a variable is assigned a value of an incorrect type. This helps catch bugs early. </p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Naming Conventions</h4>
-                                <p class="timeline-text"> When naming variables, Java uses camelCase. The first letter of the first word is lowercase, but the first letters of the remaining words are capitalized. Variable names should be relevant to the data you are storing and are case sensitive. </p>
-                            </li>
-                        </ol>
-                    </section>
-                </article>
-                <!--
+        <article class="resume" data-page="unit one">
+          <header>
+            <h2 class="h2 article-title">U1: <br>Programming </h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">1.1: What Is CS?</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">What is Computer Science?</h4>
+                <p class="timeline-text"> Computer Science is like learning about computers and how they work. It’s not just about the physical computer, but also the programs we use on them. This is important for all types of businesses, like banks or car companies, because they all use computer programs. In Computer Science, we learn to make these programs. We do this by creating step-by-step instructions, or algorithms, and then we design, build, test, and use them. It’s like building a Lego set, but with computer programs! </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">What is Programming?</h4>
+                <p class="timeline-text"> Programming is when we give computers instructions to follow. Computers use a special code called binary that only understands "on" and "off" signals, but with programming languages, we can talk to computers in a way that’s easier for us to understand. </p>
+              </li>
+              <li class="timeline-item">
+                <div class="video-container">
+                  <h4 class="h4 timeline-item-title">Short Video on Computer Science</h4>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/j7iXyUdJTHE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">1.4: Introduction to Java</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">WHAT IS JAVA?</h4>
+                <p class="timeline-text"> Java is a computer language used to make programs. It's special because it can run on any device that has Java, like computers, smartphones, or smart TVs. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Classes and Methods</h4>
+                <p class="timeline-text"> In Java, every program starts with a class named after the file. Inside this class, there's a "main" method that lists the tasks of the program. To output something, we use: System.out.println("This is a String"). </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Comments, Semicolons, and Whitespace</h4>
+                <p class="timeline-text"> Comments in code help us understand what's happening. They start with "//" for a single line, or "/* */" for multiple lines. Semicolons mark the end of a line of code. Whitespace, like empty lines or spaces, doesn't affect the code but helps with readability. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Compiling, Classes, and Executables</h4>
+                <p class="timeline-text"> Java is a compiled language, which means it's converted into a class of byte code before it can run. This is done using "javac filename.java" in the Command Line, creating a "filename.class". This class can then be run using "java filename". This process is usually done automatically by the IDE (Integrated Development Environment) we use. </p>
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">1.4: Introduction to Java</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">WHAT IS JAVA?</h4>
+                <p class="timeline-text"> Java is a computer language used to make programs. It's special because it can run on any device that has Java, like computers, smartphones, or smart TVs. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Classes and Methods</h4>
+                <p class="timeline-text"> In Java, every program starts with a class named after the file. Inside this class, there's a "main" method that lists the tasks of the program. To output something, we use: System.out.println("This is a String"). </p>
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">1.4.2: Variables in Java</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Importance and Uses of a Variable</h4>
+                <p class="timeline-text"> Variables are essential in all programming languages. They allow us to store data under a name, making it easier to use in the program. For instance, we can store the number 17 in the variable "userAge." </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Primitive Data Types in Java</h4>
+                <p class="timeline-text"> Java has three main primitive data types: int, double, and boolean. The 'int' type holds whole numbers, 'double' holds decimal numbers, and 'boolean' holds true or false values. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Strings and Escape Sequences</h4>
+                <p class="timeline-text"> A String is an object within Java that holds a collection of characters. We use Strings to store words or sentences. An escape sequence allows us to perform special functions in Java without the computer misinterpreting what we're writing. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Static Checking</h4>
+                <p class="timeline-text"> Java uses static typing, which means a program won't compile if a variable is assigned a value of an incorrect type. This helps catch bugs early. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Naming Conventions</h4>
+                <p class="timeline-text"> When naming variables, Java uses camelCase. The first letter of the first word is lowercase, but the first letters of the remaining words are capitalized. Variable names should be relevant to the data you are storing and are case sensitive. </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+        <!--
                 						- #RESUME2
 							-->
-                <article class="resume" data-page="unit two">
-    <header>
-        <h2 class="h2 article-title">U2: Software<br>Development</h2>
-    </header>
-    <section class="timeline">
-        <div class="title-wrapper">
-            <div class="icon-box">
+        <article class="resume" data-page="unit two">
+          <header>
+            <h2 class="h2 article-title">U2: Software <br>Development </h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Software Development</h3>
             </div>
-            <h3 class="h3">Software Development</h3>
-        </div>
-        <ol class="timeline-list">
-            <li class="timeline-item">
+            <ol class="timeline-list">
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">2.1 - What is Software Development?</h4>
                 <p class="timeline-text">Software development is the process of creating software applications. It's not just about writing code, but also includes designing, testing, and maintaining the applications. This process ensures that the applications work well and meet the needs of the users.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">2.2 - Steps of Software Development</h4>
                 <p class="timeline-text">The software development process involves several steps: gathering requirements, planning, designing the software, coding, testing for quality, deploying the software, providing support, and evaluating for improvements.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">2.3 - Why is the Software Development important</h4>
                 <p class="timeline-text">Software development is crucial because it helps create efficient and effective software that fulfills user needs. It plays a vital role in the smooth operation of businesses and enhances user experience.</p>
-            </li>
-        </ol>
-    </section>
-</article>
-<article class="resume" data-page="unit three">
-    <header>
-        <h2 class="h2 article-title">U3: Sorting</h2>
-    </header>
-    <section class="timeline">
-        <div class="title-wrapper">
-            <div class="icon-box">
+              </li>
+            </ol>
+          </section>
+        </article>
+        <article class="resume" data-page="unit three">
+          <header>
+            <h2 class="h2 article-title">U3: Sorting</h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Sorting Algorithms</h3>
             </div>
-            <h3 class="h3">Sorting Algorithms</h3>
-        </div>
-        <ol class="timeline-list">
-            <li class="timeline-item">
+            <ol class="timeline-list">
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Understanding Sorting Algorithms</h4>
                 <p class="timeline-text">Sorting algorithms are techniques used to organize elements in a list or array in a certain order, like from smallest to largest. They work by comparing elements and swapping their places to achieve the desired order. Examples include QuickSort, MergeSort, and BubbleSort, each with different efficiencies and uses.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">The Importance of Sorting</h4>
                 <p class="timeline-text">Sorting is crucial in Computer Science as it makes data retrieval faster and improves algorithm efficiency. It's key in data analysis for tasks like finding averages or patterns. Sorting also forms the basis of more complex algorithms, making it a fundamental concept in the field. Additionally, sorting helps us understand the limits of computation.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Examples of Sorting Algorithms</h4>
                 <p class="timeline-text">There are many sorting algorithms, each with its own strengths and weaknesses. For example, BubbleSort is simple but not very efficient for large lists, while QuickSort and MergeSort are more complex but can handle larger lists more efficiently.</p>
-            </li>
-        </ol>
-    </section>
-    <section class="timeline">
-        <div class="title-wrapper">
-            <div class="icon-box">
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Time Complexity & Big O Notation</h3>
             </div>
-            <h3 class="h3">Time Complexity & Big O Notation</h3>
-        </div>
-        <ol class="timeline-list">
-            <li class="timeline-item">
+            <ol class="timeline-list">
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Understanding Time Complexity</h4>
                 <p class="timeline-text">Time complexity measures how an algorithm's runtime grows with the size of the input, helping us gauge its efficiency. Big O Notation is a way to express the worst-case scenario of an algorithm's time or space complexity. It helps us understand how an algorithm's performance changes with larger inputs. Examples include O(n) for linear time and O(log n) for logarithmic time.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Recursive Programming</h4>
                 <p class="timeline-text">A recursive program solves a problem by breaking it down into smaller versions of the same problem until it reaches a base case that stops the recursion. From this base case, the program works its way back up to the final answer. This is different from an iterative program that uses loops to repeat operations until a condition is met. While recursive solutions might be faster, they might use more memory due to the function calls.</p>
-            </li>
-        </ol>
-    </section>
-</article>
-<article class="resume" data-page="unit four">
-    <header>
-        <h2 class="h2 article-title">U4: Topics in CS</h2>
-    </header>
-    <section class="timeline">
-        <div class="title-wrapper">
-            <div class="icon-box">
+              </li>
+            </ol>
+          </section>
+        </article>
+        <article class="resume" data-page="unit four">
+          <header>
+            <h2 class="h2 article-title">U4: Topics in CS</h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">4.1 - Environmental</h3>
             </div>
-            <h3 class="h3">4.1 - Environmental</h3>
-        </div>
-        <ol class="timeline-list">
-            <li class="timeline-item">
+            <ol class="timeline-list">
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Understanding E-waste</h4>
                 <p class="timeline-text">E-waste is electronic products that are no longer wanted or functional. This includes items like computers, smartphones, and TVs.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">The Impact of E-waste on the Environment</h4>
                 <p class="timeline-text">E-waste contains harmful substances like lead, mercury, and cadmium. If not disposed of correctly, these can pollute the air, soil, and water.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Global E-waste Production</h4>
                 <p class="timeline-text">Each year, over 50 million tonnes of e-waste are produced worldwide. Unfortunately, only a small portion of this is recycled properly.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Managing E-waste Responsibly</h4>
                 <p class="timeline-text">Recycling e-waste can recover valuable materials and lessen its environmental impact. It's important to dispose of e-waste correctly to handle hazardous substances safely.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">E-waste Recycling Programs</h4>
                 <p class="timeline-text">Many countries have set up e-waste recycling programs and laws to promote the responsible disposal and recycling of electronic devices.</p>
-            </li>
-        </ol>
-    </section>
-    <section class="timeline">
-        <div class="title-wrapper">
-            <div class="icon-box">
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Ergonomics in Computer Science</h3>
             </div>
-            <h3 class="h3">Ergonomics in Computer Science</h3>
-        </div>
-        <ol class="timeline-list">
-            <li class="timeline-item">
+            <ol class="timeline-list">
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">What is Ergonomics?</h4>
                 <p class="timeline-text">Ergonomics is about designing equipment and devices to fit the human body and its movements. In Computer Science, it's about setting up a workspace and using tools that minimize strain and injury while maximizing productivity and comfort.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Maintaining Good Posture</h4>
                 <p class="timeline-text">Keeping a good posture can help reduce strain on your back and neck.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Supporting Your Wrists</h4>
                 <p class="timeline-text">Using wrist supports and ergonomic keyboards can help prevent wrist injuries.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Choosing a Comfortable Chair</h4>
                 <p class="timeline-text">Investing in a comfortable chair with good lumbar support can make a big difference.</p>
-            </li>
-            <li class="timeline-item">
+              </li>
+              <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Positioning Your Monitor</h4>
                 <p class="timeline-text">Adjusting the height and distance of your monitor can help reduce eye strain.</p>
-            </li>
-        </ol>
-    </section>
-    <section class="timeline">
-    <div class="title-wrapper">
-        <div class="icon-box">
-            <ion-icon name="book-outline"></ion-icon>
-        </div>
-        <h3 class="h3">Jobs In Computer Science</h3>
-    </div>
-    <ol class="timeline-list">
-        <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Exploring Computer Science Careers</h4>
-            <p class="timeline-text">
-                Computer Science offers a variety of exciting careers that involve creating, developing, and implementing technology solutions. Here are some popular job roles:<br>
-                - Software Developer: Creates software applications and systems based on user needs.<br>
-                - Web Developer: Designs and builds websites, ensuring they function well and provide a good user experience.<br>
-                - Data Scientist: Uses data analysis and machine learning to extract insights and make decisions based on data.<br>
-                - Network Engineer: Designs and maintains computer networks, ensuring efficient data communication and security.<br>
-                - Cybersecurity Analyst: Protects computer systems and networks from cyber threats and ensures data security.<br>
-                - Database Administrator: Manages and organizes data using database software, ensuring data integrity and accessibility.
-            </p>
-        </li>
-    </ol>
-</section>
-
-</article>
-
-
-
-
-
-                <!--
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Jobs In Computer Science</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Exploring Computer Science Careers</h4>
+                <p class="timeline-text"> Computer Science offers a variety of exciting careers that involve creating, developing, and implementing technology solutions. Here are some popular job roles: <br> - Software Developer: Creates software applications and systems based on user needs. <br> - Web Developer: Designs and builds websites, ensuring they function well and provide a good user experience. <br> - Data Scientist: Uses data analysis and machine learning to extract insights and make decisions based on data. <br> - Network Engineer: Designs and maintains computer networks, ensuring efficient data communication and security. <br> - Cybersecurity Analyst: Protects computer systems and networks from cyber threats and ensures data security. <br> - Database Administrator: Manages and organizes data using database software, ensuring data integrity and accessibility. </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+        <!--
 						- #PORTFOLIO
 							-->
-                <article class="portfolio" data-page="portfolio">
-                    <header>
-                        <h2 class="h2 article-title">Portfolio</h2>
-                    </header>
-                    <section class="projects">
-                        <ul class="filter-list">
-                            <li class="filter-item">
-                                <button class="active" data-filter-btn>All</button>
-                            </li>
-                            <li class="filter-item">
-                                <button data-filter-btn>Web design</button>
-                            </li>
-                            <li class="filter-item">
-                                <button data-filter-btn>Applications</button>
-                            </li>
-                            <li class="filter-item">
-                                <button data-filter-btn>Web development</button>
-                            </li>
-                        </ul>
-                        <div class="filter-select-box">
-                            <button class="filter-select" data-select>
-                                <div class="select-value" data-selecct-value>Select category</div>
-                                <div class="select-icon">
-                                    <ion-icon name="chevron-down"></ion-icon>
-                                </div>
-                            </button>
-                            <ul class="select-list">
-                                <li class="select-item">
-                                    <button data-select-item>All</button>
-                                </li>
-                                <li class="select-item">
-                                    <button data-select-item>Web design</button>
-                                </li>
-                                <li class="select-item">
-                                    <button data-select-item>Applications</button>
-                                </li>
-                                <li class="select-item">
-                                    <button data-select-item>Web development</button>
-                                </li>
-                            </ul>
-                        </div>
-                        <ul class="project-list">
-                            <li class="project-item  active" data-filter-item data-category="web development">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">Finance</h3>
-                                    <p class="project-category">Web development</p>
-                                </a>
-                            </li>
-                            <li class="project-item  active" data-filter-item data-category="web development">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">Orizon</h3>
-                                    <p class="project-category">Web development</p>
-                                </a>
-                            </li>
-                            <li class="project-item  active" data-filter-item data-category="web design">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">Fundo</h3>
-                                    <p class="project-category">Web design</p>
-                                </a>
-                            </li>
-                            <li class="project-item  active" data-filter-item data-category="applications">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">Brawlhalla</h3>
-                                    <p class="project-category">Applications</p>
-                                </a>
-                            </li>
-                            <li class="project-item  active" data-filter-item data-category="web design">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">DSM.</h3>
-                                    <p class="project-category">Web design</p>
-                                </a>
-                            </li>
-                            <li class="project-item  active" data-filter-item data-category="web design">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">MetaSpark</h3>
-                                    <p class="project-category">Web design</p>
-                                </a>
-                            </li>
-                            <li class="project-item  active" data-filter-item data-category="web development">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">Summary</h3>
-                                    <p class="project-category">Web development</p>
-                                </a>
-                            </li>
-                            <li class="project-item  active" data-filter-item data-category="applications">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">Task Manager</h3>
-                                    <p class="project-category">Applications</p>
-                                </a>
-                            </li>
-                            <li class="project-item  active" data-filter-item data-category="web development">
-                                <a href="#">
-                                    <figure class="project-img">
-                                        <div class="project-item-icon-box">
-                                            <ion-icon name="eye-outline"></ion-icon>
-                                        </div>
-                                        <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                                    </figure>
-                                    <h3 class="project-title">Arrival</h3>
-                                    <p class="project-category">Web development</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
-                </article>
-                <!--
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>Select category</div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+            <ul class="project-list">
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Finance</h3>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Orizon</h3>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Fundo</h3>
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Brawlhalla</h3>
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  </figure>
+                  <h3 class="project-title">DSM.</h3>
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">MetaSpark</h3>
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Summary</h3>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Task Manager</h3>
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Arrival</h3>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <!--
 						- #BLOG
 							-->
-                <article class="blog" data-page="blog">
-                    <header>
-                        <h2 class="h2 article-title">Unit One</h2>
-                    </header>
-                    <section class="blog-posts">
-                        <ul class="blog-posts-list">
-                            <li class="blog-post-item">
-                                <a href="#">
-                                    <figure class="blog-banner-box">
-                                        <img src="./assets/images/blog-1.jpg" alt="1.1: What is CS?" loading="lazy">
-                                    </figure>
-                                    <div class="blog-content">
-                                        <div class="blog-meta"></div>
-                                        <h3 class="h3 blog-item-title">1.1: What is CS?</h3>
-                                        <p class="blog-text"> In this unit, we covered the basics of programming including variables, control structures, and basic data types. </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="blog-post-item">
-                                <a href="#">
-                                    <figure class="blog-banner-box">
-                                        <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                                    </figure>
-                                    <div class="blog-content">
-                                        <div class="blog-meta">
-                                            <p class="blog-category">Design</p>
-                                            <span class="dot"></span>
-                                            <time datetime="2022-02-23">Fab 23, 2022</time>
-                                        </div>
-                                        <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-                                        <p class="blog-text"> Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi. </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="blog-post-item">
-                                <a href="#">
-                                    <figure class="blog-banner-box">
-                                        <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                                    </figure>
-                                    <div class="blog-content">
-                                        <div class="blog-meta">
-                                            <p class="blog-category">Design</p>
-                                            <span class="dot"></span>
-                                            <time datetime="2022-02-23">Fab 23, 2022</time>
-                                        </div>
-                                        <h3 class="h3 blog-item-title">Design digest #80</h3>
-                                        <p class="blog-text"> Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit. </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="blog-post-item">
-                                <a href="#">
-                                    <figure class="blog-banner-box">
-                                        <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                                    </figure>
-                                    <div class="blog-content">
-                                        <div class="blog-meta">
-                                            <p class="blog-category">Design</p>
-                                            <span class="dot"></span>
-                                            <time datetime="2022-02-23">Fab 23, 2022</time>
-                                        </div>
-                                        <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-                                        <p class="blog-text"> Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi. </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="blog-post-item">
-                                <a href="#">
-                                    <figure class="blog-banner-box">
-                                        <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                                    </figure>
-                                    <div class="blog-content">
-                                        <div class="blog-meta">
-                                            <p class="blog-category">Design</p>
-                                            <span class="dot"></span>
-                                            <time datetime="2022-02-23">Fab 23, 2022</time>
-                                        </div>
-                                        <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-                                        <p class="blog-text"> Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="blog-post-item">
-                                <a href="#">
-                                    <figure class="blog-banner-box">
-                                        <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                                    </figure>
-                                    <div class="blog-content">
-                                        <div class="blog-meta">
-                                            <p class="blog-category">Design</p>
-                                            <span class="dot"></span>
-                                            <time datetime="2022-02-23">Fab 23, 2022</time>
-                                        </div>
-                                        <h3 class="h3 blog-item-title">Design digest #79</h3>
-                                        <p class="blog-text"> Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum. </p>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
-                </article>
-                <!--
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Unit One</h2>
+          </header>
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-1.jpg" alt="1.1: What is CS?" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta"></div>
+                    <h3 class="h3 blog-item-title">1.1: What is CS?</h3>
+                    <p class="blog-text"> In this unit, we covered the basics of programming including variables, control structures, and basic data types. </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                    <p class="blog-text"> Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi. </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+                    <p class="blog-text"> Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit. </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                    <p class="blog-text"> Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi. </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+                    <p class="blog-text"> Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+                    <p class="blog-text"> Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum. </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <!--
 							- #CONTACT
 								-->
-                <article class="contact" data-page="contact">
-                    <header>
-                        <h2 class="h2 article-title">Contact</h2>
-                    </header>
-                    <section class="mapbox" data-mapbox>
-                        <figure>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" width="400" height="300" loading="lazy"></iframe>
-                        </figure>
-                    </section>
-                    <section class="contact-form">
-                        <h3 class="h3 form-title">Contact Form</h3>
-                        <form action="#" class="form" data-form>
-                            <div class="input-wrapper">
-                                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-                                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-                            </div>
-                            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-                            <button class="form-btn" type="submit" disabled data-form-btn>
-                                <ion-icon name="paper-plane"></ion-icon>
-                                <span>Send Message</span>
-                            </button>
-                        </form>
-                    </section>
-                </article>
-            </div>
-        </main>
-        <!--
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" width="400" height="300" loading="lazy"></iframe>
+            </figure>
+          </section>
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              </div>
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+    <!--
 							- custom js link
 								-->
-        <script src="./assets/js/script.js"></script>
-        <!--
+    <script src="./assets/js/script.js"></script>
+    <!--
 							- ionicon link
 								-->
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    </body>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>
